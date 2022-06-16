@@ -22,7 +22,7 @@
 
 body{
     margin: 0;
-    background: #7c07e9;
+    background: #5502a2;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
 }
@@ -69,13 +69,14 @@ nav li {
 }
 
 nav a {
-    color: #7c07e9;
+    color: #7f05f1;
     text-decoration: none;
     text-transform: uppercase;
+    font-family: 'Mr Dafoe';
 }
 
 nav a:hover {
-    color: rgb(240, 52, 149);
+    color: rgb(250, 19, 138);
 }
 
 nav a::before {
@@ -83,7 +84,7 @@ nav a::before {
     display: block;
     height: 5px;
     width: 100%;
-    background-color: rgba(108, 108, 108, 0.829);
+    background-color: rgba(220, 93, 252, 0.829);
     position: absolute;
     top: 0;
     width: 0%;
