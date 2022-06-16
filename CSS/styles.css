@@ -1,3 +1,18 @@
+.even-columns {
+    display: flex;
+}
+
+.even-columns > * {
+    flex-basis: 100%;
+}
+
+.col {
+   padding: 3em;
+   background: #7005d4; 
+   height: 50px;
+   align-items: center;
+}
+
 body {
     margin: 0;
     background: #000000;
@@ -11,7 +26,9 @@ body {
 }
 
 header {
-    background:#8811f7;
+    background:#7005d4;
+    padding: 10px;
+    /* align-items: center; */
 }
 
 header::after {
@@ -43,10 +60,9 @@ nav > ul {
 
 nav > li {
     display: inline-block;
-    scroll-margin-right: 20px;
-    padding-top: 20px;
-
-    position: relative;
+    /* scroll-margin-right: 20px;
+    padding-top: 20px; */
+    /* position: relative; */
 }
 
 nav > ul > li > a {
@@ -59,12 +75,12 @@ nav > a:hover {
     color:black;
 }
 
-nav > a::before {
+/* nav > a::before {
     content: '';
     display: block;
     height: 5px;
     width: 100%;
     background-color: #8811f7;
-    
+
     position: absolute;
-}
+} */
